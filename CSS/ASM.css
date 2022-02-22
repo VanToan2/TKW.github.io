@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family:sans-serif;
+    overflow: auto;
+}
+#header{
+    background-color: rgb(187, 110, 110);
+    height: 46px;
+}
+#header .search-btn{
+float: right;
+padding: 0 21px;
+
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+color: #fff;
+font-size: 20px;
+line-height: 46px;
+
+}
+#nav{
+display: inline-block;
+}
+#nav,.subnav{
+list-style-type: none;
+}
+#nav >li{
+    display: inline-block;
+}
+#nav li{
+    /* list-style: none; */
+    position: relative;
+}
+#nav >l i >a {
+color:#fff;
+}
+#nav li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav li:hover .subnav
+{
+    display: block;
+}
+#nav li:hover a
+{
+    color: #000;
+   
+    
+}
+#nav > li:hover > a,
+#nav .subnav li:hover >a{
+    background-color: #ccc;
+    color: black;
+}
+#nav .subnav
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+
+}
+
+#nav .subnav a{
+    padding: 0 12px;
+    color: black;
+    line-height: 38px;
+}
+#slider
+{
+width: 1132px;
+height: 450px;
+margin: auto;
+z-index: 1;
+}
+
+.tittle-section b{
+    background-color: #fdb913;
+    opacity: 1;
+    height: 1px;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+#footer img{
+    margin: 10px 10px 0px 90px;
+}
+
+.newpost ul li :hover a{
+    color: #0cc252;
+}
+
+
+
+
+

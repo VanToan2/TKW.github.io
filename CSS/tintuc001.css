@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family:sans-serif;
+    overflow: auto;
+}
+#header{
+    background-color: rgb(187, 110, 110);
+    height: 46px;
+}
+#header .search-btn{
+float: right;
+padding: 0 21px;
+
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+color: #fff;
+font-size: 20px;
+line-height: 46px;
+
+}
+#nav{
+display: inline-block;
+
+}
+#nav,.subnav{
+list-style-type: none;
+}
+#nav >li{
+    display: inline-block;
+}
+#nav li{
+    /* list-style: none; */
+    position: relative;
+}
+#nav >l i >a {
+color:#fff;
+}
+#nav li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav li:hover .subnav
+{
+    display: block;
+}
+#nav li:hover a
+{
+    color: #000;
+   
+    
+}
+#nav > li:hover > a,
+#nav .subnav li:hover >a{
+    background-color: #ccc;
+    color: black;
+}
+#nav .subnav
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+
+}
+
+#nav .subnav a{
+    padding: 0 12px;
+    color: black;
+    line-height: 38px;
+}
+.noidung{
+    margin-top: 30px;
+}
+
+
+
+
+
+.article{
+    width: calc(70% - 5px);
+    height: 1900px;
+    border: 1px solid black;
+    float:left;
+    margin-right: 5px;
+}
+.aside{
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    float:right;
+}
+
+
+.tieudebao{
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.imganh1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cauhoi{
+    width: 85%;
+    margin: 20px 0px 20px 70px;
+    font-size: 19px;
+}
+.abc1{
+    width: 85%;
+    margin-left: 70px;
+}
+
+
+
+
+
+.tieudephai{
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+.cba{
+    width: 80%;
+    margin-left: 40px;
+}
+.cba1{
+    font-size: 20px;
+}
+hr{
+    margin: 5px 0px 10px 0px;
+}
+.cba1 ul li{
+    list-style: none;
+}
+.cba1 ul li :hover a{
+    color: #0ac419;
+}
+#footer img{
+    margin: 10px 10px 0px 90px;
+}

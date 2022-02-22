@@ -1,0 +1,180 @@
+.tong{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family:sans-serif;
+    overflow: auto;
+}
+#header{
+    background-color: rgb(187, 110, 110);
+    height: 46px;
+}
+#header .search-btn{
+float: right;
+padding: 0 21px;
+
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+color: #fff;
+font-size: 20px;
+line-height: 46px;
+
+}
+#nav{
+display: inline-block;
+}
+#nav,.subnav{
+list-style-type: none;
+}
+#nav >li{
+    display: inline-block;
+}
+#nav li{
+    /* list-style: none; */
+    position: relative;
+}
+#nav >l i >a {
+color:#fff;
+}
+#nav li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav li:hover .subnav
+{
+    display: block;
+}
+#nav li:hover a
+{
+    color: #000;
+   
+    
+}
+#nav > li:hover > a,
+#nav .subnav li:hover >a{
+    background-color: #ccc;
+    color: black;
+}
+#nav .subnav
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+
+}
+
+#nav .subnav a{
+    padding: 0 12px;
+    color: black;
+    line-height: 38px;
+    float: left;
+}
+
+
+
+
+
+.boxnoidung{
+    margin-top: 30px;
+}
+.img{
+    float: left;
+}
+.size {
+    height: 30px;
+    border: solid 1px #080808;
+    padding: 7px !important;
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 12px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+
+.boxgiua{
+    width: 30%;
+    float: left;
+    margin: 0px 10px 0px 20px;
+}
+.giatien{
+    margin: 30px 250px 30px 0px;
+    font-size: 20px;
+}
+.chonsize{
+    float: left;
+    margin-left: 20px;
+}
+
+.chonsl .chonsoluong .soluong{
+    display: inline-block;
+    width: 50%;
+}
+.chonsoluong{
+    margin-top: 20px;
+}
+
+
+
+
+.muangay{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: solid 2px #fcfbfb;
+    background-color: yellow;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 30px 0px 30px 0px;
+}
+.muangay:hover{
+    color: #f44336;
+}
+.muatrenshope:hover{
+    color: #f44336;
+}
+.muatrenshope{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: solid 2px #fcfbfb;
+    background-color: rgb(52, 23, 158);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+
+
+.boxleft{
+    width: 25%;
+    float: left;
+}
+table{
+    margin-left: 70px;
+    height: 60vh;
+    width: 70%;
+}
